@@ -9,25 +9,23 @@
 /* Begin PBXBuildFile section */
 		6D9D858025010E4300612077 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9D857F25010E4300612077 /* AppDelegate.swift */; };
 		6D9D858225010E4300612077 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9D858125010E4300612077 /* SceneDelegate.swift */; };
-		6D9D858425010E4300612077 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9D858325010E4300612077 /* ContentView.swift */; };
 		6D9D858625010E4A00612077 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D9D858525010E4A00612077 /* Assets.xcassets */; };
 		6D9D858925010E4A00612077 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D9D858825010E4A00612077 /* Preview Assets.xcassets */; };
 		6D9D858C25010E4A00612077 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D9D858A25010E4A00612077 /* LaunchScreen.storyboard */; };
-		6D9D859425010FD000612077 /* DismissKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9D859325010FD000612077 /* DismissKeyboard.swift */; };
-		6D9D85962501103D00612077 /* AlertWithTextfield.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9D85952501103D00612077 /* AlertWithTextfield.swift */; };
+		6DD7ABE025078C6F00E96C1F /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DD7ABDF25078C6F00E96C1F /* ButtonView.swift */; };
+		6DD7ABE225078C9600E96C1F /* AlertWithTextfield.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DD7ABE125078C9600E96C1F /* AlertWithTextfield.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6D9D857C25010E4300612077 /* SwiftUI-Alert-With-Textfield.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-Alert-With-Textfield.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D9D857F25010E4300612077 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6D9D858125010E4300612077 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		6D9D858325010E4300612077 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6D9D858525010E4A00612077 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6D9D858825010E4A00612077 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6D9D858B25010E4A00612077 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6D9D858D25010E4A00612077 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6D9D859325010FD000612077 /* DismissKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DismissKeyboard.swift; sourceTree = "<group>"; };
-		6D9D85952501103D00612077 /* AlertWithTextfield.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertWithTextfield.swift; sourceTree = "<group>"; };
+		6DD7ABDF25078C6F00E96C1F /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		6DD7ABE125078C9600E96C1F /* AlertWithTextfield.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertWithTextfield.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,9 +60,8 @@
 			children = (
 				6D9D857F25010E4300612077 /* AppDelegate.swift */,
 				6D9D858125010E4300612077 /* SceneDelegate.swift */,
-				6D9D858325010E4300612077 /* ContentView.swift */,
-				6D9D85952501103D00612077 /* AlertWithTextfield.swift */,
-				6D9D859325010FD000612077 /* DismissKeyboard.swift */,
+				6DD7ABDF25078C6F00E96C1F /* ButtonView.swift */,
+				6DD7ABE125078C9600E96C1F /* AlertWithTextfield.swift */,
 				6D9D858525010E4A00612077 /* Assets.xcassets */,
 				6D9D858A25010E4A00612077 /* LaunchScreen.storyboard */,
 				6D9D858D25010E4A00612077 /* Info.plist */,
@@ -153,10 +150,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				6D9D858025010E4300612077 /* AppDelegate.swift in Sources */,
-				6D9D85962501103D00612077 /* AlertWithTextfield.swift in Sources */,
-				6D9D859425010FD000612077 /* DismissKeyboard.swift in Sources */,
+				6DD7ABE225078C9600E96C1F /* AlertWithTextfield.swift in Sources */,
 				6D9D858225010E4300612077 /* SceneDelegate.swift in Sources */,
-				6D9D858425010E4300612077 /* ContentView.swift in Sources */,
+				6DD7ABE025078C6F00E96C1F /* ButtonView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
